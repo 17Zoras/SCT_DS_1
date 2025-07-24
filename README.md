@@ -1,50 +1,51 @@
-# India Population Distribution by Age (2022)
+# 📊 India Population Distribution by Age (2022)
 
-This project analyzes and visualizes **India's age-wise population distribution for the year 2022** using official data from the **World Bank**. It breaks down the total population into three major age groups and presents a clean, color-coded bar chart to represent demographic proportions.
-
----
-
-## 📈 Project Overview
-
-- **Source**: World Bank Excel Dataset  
-- **Country**: India  
-- **Year**: 2022  
-- **Metric**: Total Population by Age Group  
-- **Purpose**: Visual demographic analysis as part of a **Data Science Internship** at **SkillCraft Technology**
+This project presents a **visual analysis of India's population distribution in 2022**, categorized by age groups. It uses official **World Bank data** and provides a clean, bar chart visualization to highlight key demographic trends.
 
 ---
 
-## 🧮 Age Groups Analyzed
+## 🔍 Project Details
 
-| Age Group | Percentage | Color   |
-|-----------|------------|---------|
-| 0–18      | 36.1%      | 🟧 Orange |
-| 18–64     | 57.0%      | 🔵 Blue   |
-| 65+       | 6.9%       | 🟣 Purple |
-
-These percentages are based on published demographic research and applied to India’s total population (sourced from the World Bank).
+- **📁 Data Source**: World Bank Excel Dataset  
+- **📍 Country**: India  
+- **📅 Year**: 2022  
+- **📊 Focus**: Population by Age Group  
+- **🎯 Objective**: Demographic analysis and visualization project under the **Data Science Internship at SkillCraft Technology**
 
 ---
 
-## 🧠 Key Insights
+## 🧮 Age Group Breakdown
 
-- **Working-age group (18–64)** dominates the population, representing a strong labor force.
-- **Youth (0–18)** forms a significant portion, reflecting the potential for future development.
-- **Elderly (65+)** remains the smallest group but is expected to grow in the coming decades.
+| Age Group    | Percentage | Color     |
+|--------------|------------|-----------|
+| 0–20 Years   | 36.1%      | 🟧 Orange |
+| 21–64 Years  | 57.0%      | 🔵 Blue   |
+| 65+ Years    | 6.9%       | 🟣 Pink   |
 
----
-
-## 🛠️ Tech Stack
-
-- **Python 3**
-- **Pandas** – For reading and processing Excel data
-- **Matplotlib** – For professional bar chart visualization
-- **OpenPyXL** – For `.xlsx` format compatibility
+These percentages were applied to the total population of India (2022) obtained from World Bank data.
 
 ---
 
-## 💡 How to Run
+## 📌 Key Takeaways
 
-### 1. Install Requirements
+- The **21–64 years** age group forms the majority, indicating a large working population.
+- The **0–20 years** group highlights India’s young population and potential workforce.
+- The **65+ years** segment, though currently small, is expected to expand over time due to rising life expectancy.
+
+---
+
+## 🛠 Tech Stack
+
+- **Python**
+- **Pandas** – For reading and filtering Excel data
+- **Matplotlib** – For generating professional bar chart visuals
+- **OpenPyXL** – Excel file support (.xlsx)
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Install Dependencies
+
 ```bash
 pip install pandas matplotlib openpyxl
